@@ -3,6 +3,8 @@ public class BankAccount {
     int minBal, maxBal;
     BankAccount( int initialBalance )
     {
+        minBal = initialBalance;
+        maxBal = initialBalance;
         balance = initialBalance;
     }
     public int getBalance()
